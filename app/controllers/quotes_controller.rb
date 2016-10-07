@@ -12,6 +12,8 @@ class QuotesController < ApplicationController
     quote_array.each_with_index do |word, index|
       if word == 'paintings'
         quote_array[index] = 'programs'
+      elsif word == 'painting,'
+        quote_array[index] = 'programming,'
       elsif word == 'paintings.'
         quote_array[index] = 'programs.'
       elsif word == 'Clouds'
