@@ -16,14 +16,14 @@
 
  */
 body {
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/15/5a/b4/155ab4854a31aedc0ec0a3441b735005.jpg");
+  background-image: url("https://usatunofficial.files.wordpress.com/2012/07/bob-ross.jpg");
   background-size: cover;
 }
  .quote-block {
    margin: 40px;
-   background: #ffdc00;
+   background: #7FDBFF;
    text-align: left;
-   color:#111111;
+   color:#001f3f;
    padding: 20px;
    border: 1px solid #111111;
  }
