@@ -136,6 +136,8 @@ class QuotesController < ApplicationController
         quote_array[index] = 'ifs'
       elsif word == 'possums'
         quote_array[index] = 'whiles'
+      elsif word == 'mountains'
+        quote_array[index] = 'databases'
       end
     end
 
