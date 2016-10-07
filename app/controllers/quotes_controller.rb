@@ -4,5 +4,8 @@ class QuotesController < ApplicationController
   end
 
   def show
+    total = Quote.count
+    random = rand(total)
+    @quote = Quote.find(random)
   end
 end
