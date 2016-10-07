@@ -19,6 +19,11 @@ body {
   background-image: url("https://usatunofficial.files.wordpress.com/2012/07/bob-ross.jpg");
   background-size: cover;
 }
+
+.title {
+  text-shadow: 1px 1px grey, -1px -1px white;
+}
+
  .quote-block {
    margin: 40px;
    background: #7FDBFF;
