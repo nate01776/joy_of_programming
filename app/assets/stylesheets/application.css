@@ -15,3 +15,39 @@
  *= require foundation_and_overrides
 
  */
+body {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/15/5a/b4/155ab4854a31aedc0ec0a3441b735005.jpg");
+  background-size: cover;
+}
+ .quote-block {
+   margin: 40px;
+   background: #ffdc00;
+   text-align: left;
+   color:#111111;
+   padding: 20px;
+   border: 1px solid #111111;
+ }
+
+ .quote-class {
+   font-family: Arial;
+   font-weight: bolder;
+   letter-spacing: 1px;
+   margin-bottom: 60px;
+ }
+
+ .quote-class-two {
+   text-align: right;
+   font-family: Arial;
+   font-weight: bolder;
+   letter-spacing: 3px;
+ }
+
+ .quote-name {
+   color: #FFDC00;
+   background-color: #111111;
+   font-family: Arial;
+   font-weight: bold;
+   text-align: right;
+   letter-spacing: 2px;
+   padding: 10px;
+ }

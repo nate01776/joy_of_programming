@@ -14,6 +14,8 @@ class QuotesController < ApplicationController
         quote_array[index] = 'programs'
       elsif word == 'paintings.'
         quote_array[index] = 'programs.'
+      elsif word == 'Clouds'
+        quote_array[index] = 'Cloud services'
       elsif word == 'paint'
         quote_array[index] = 'program'
       elsif word == 'paint.'
@@ -40,6 +42,8 @@ class QuotesController < ApplicationController
         quote_array[index] = 'application.'
       elsif word == 'tree'
         quote_array[index] = 'conditional'
+      elsif word == 'tree,'
+        quote_array[index] = 'function'
       elsif word == 'tree.'
         quote_array[index] = 'conditional.'
       elsif word == 'trees'
@@ -120,7 +124,7 @@ class QuotesController < ApplicationController
         quote_array[index] = 'test.'
       elsif word == 'fishing,'
         quote_array[index] = 'testing,'
-      elsif word == 'fisherman'
+      elsif word == 'fisherman.'
         quote_array[index] = 'tester'
       elsif word == 'fish'
         quote_array[index] = 'test'
@@ -128,6 +132,10 @@ class QuotesController < ApplicationController
         quote_array[index] = 'failure'
       elsif word == 'Trees'
         quote_array[index] = 'Tests'
+      elsif word == 'raccoons'
+        quote_array[index] = 'ifs'
+      elsif word == 'possums'
+        quote_array[index] = 'whiles'
       end
     end
 
